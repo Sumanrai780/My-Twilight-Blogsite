@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*---------------------- Whole body Section--------------------------------------------  */
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/*------------------------- Navbar section ------------------------------------------------*/
+
+.navbar {
+    position: sticky;
+    display: inline-flex;
+    font-weight: 600;
+    margin: 6px 0px 12px 50px;
+    padding: 8px 0px 0px 50px;
+    cursor: pointer;
+}
+
+ul li {
+    display: inline-flex;
+    padding: 0px 20px 0px 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: antiquewhite;
+}
+
+li a:hover {
+    color: gold;
+    transition: 0.5s;
+    transition-duration: 0.10s;
+}
+
+
+/*--------------------------- Heading Section----------------------------------------------  */
+
+h1 {
+    text-align: center;
+    color: rgb(249, 249, 249);
+    margin-top: 24px;
+    padding-top: 10px;
+}
+
+
+/*------------------------------ Paragraph section---------------------------------------------  */
+
+p {
+    color: ghostwhite;
+    margin: 20px 10px 0px 0px;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+}
+
+
+/*-------------------------------- Home section-----------------------------------------------  */
+
+.sunset {
+    background-image: url('./images/img1.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: round;
+    padding: 50px 0px 0px 0px;
+}
+
+.sunrise {
+    background-image: url('./images/img2.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: round;
+    padding: 30px 0px 0px 0px;
+}
+
+.Night {
+    background-image: url('./images/img3.jpeg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: round;
+    padding: 60px 0px 0px 0px;
+}
+
+
+/*---------------------------------- About section---------------------------------------------------  */
+
+.about {
+    background-image: url('./images/abimg.webp');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: round;
+    padding: 31px 4px 0px 0px;
+}
+
+
+/*------------------------------------ Form Section-----------------------------------------------------  */
+
+.form {
+    background-image: url('./images/img4.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 30px 15px 0px 0px;
+}
+
+form input {
+    width: 70%;
+    text-align: center;
+    margin: 25px 0px 13px 190px;
+    padding: 5px 220px 2px 210px;
+}
+
+
+/*-------------------------------------------- Button section-------------------------------------------------  */
+
+.search-btn {
+    margin-left: 42%;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 1.0rem;
+}
+
+.search-btn i {}
+
+.submit-btn {
+    width: 9%;
+    left: 44%;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.0rem;
+}
+
+.view-btn {
+    margin-top: 11%;
+    padding-top: 0%;
+    border-radius: 10px;
+    font-size: em;
+    font-size: 1.0em;
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+/*----------------------------- Card Section--------------------------------------------  */
+
+#card-section {
+    margin: 0px 17px 0px 0px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1 {
+    position: relative;
+    background: url(./images/card1.jpg);
+    height: 281px;
+    background-repeat: no-repeat;
+    margin: -90px 2px 0px 0px;
+    padding: 15px 0px 0px 0px;
+    border-radius: 18px;
+}
+
+.card-2 {
+    position: relative;
+    background: url(./images/card2.jpg);
+    height: 281px;
+    background-repeat: no-repeat;
+    margin: -66px 2px 24px 0px;
+    padding: 20px 0px 0px 0px;
+    border-radius: 18px;
+}
+
+.card-3 {
+    position: relative;
+    background: url(./images/card3.jpeg);
+    height: 371px;
+    background-repeat: no-repeat;
+    padding: 23px 0px 0px 0px;
+    border-radius: 18px;
+}
+
+#Services {
+    position: relative;
+    background: url('./images/service.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: round;
+    padding: 31px 4px 0px 0px;
+}
+
+
+/*------------------------------ Footer section----------------------------------------  */
+
+.foot {
+    background-color: white;
+    color: black;
+}
